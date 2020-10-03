@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-#define MAX_IMPORT_CHARS 10000
+#define MAX_IMPORT_CHARS 100000
 
 /**
  * all classes from jdk 1.5 except inner classes and 
  * the java.lang package
+ which means the default package is not is not included
  */
 const char* classes[] = {
 	"java.applet.AppletContext",
